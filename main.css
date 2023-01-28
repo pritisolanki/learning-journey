@@ -100,7 +100,9 @@ header{
     margin-bottom: 2.4rem;
     gap: 3rem;
     flex-wrap: wrap;
-
+}
+.center{
+    text-align: center;
 }
 
 .card{
@@ -148,9 +150,3 @@ footer{
     color: snow;
 }
 
-/*media query*/
-@media (max-width:1000px){
-    .blog-row {
-        flex-direction: column;
-    }
-}
