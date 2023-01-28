@@ -1,0 +1,153 @@
+body{
+    background: #FFFFFF;
+    font-family: 'Kalam', cursive;
+    color: #0E0E0E;
+    margin: 0;
+}
+
+header{
+    height: 3.788rem;
+}
+.header-menu {    
+    font-style: normal;
+    line-height: 1.25rem;
+    text-align: left;
+    width: 12.5rem;
+    list-style-type: none;
+    margin-top: 1.28rem;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu li{
+    width: 6.5rem;
+    height: 1.25rem;
+    display: inline;
+    font-size: 1.25rem;
+}
+.logo{
+    width: 12.94rem;
+    height: 2.141rem;
+    padding-top: 0.7rem;
+    display: flex;
+    justify-content: space-around;
+}
+.logo img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.logo-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 108.2%;
+    letter-spacing: -0.03em;
+    margin-top: 0.55rem;
+    left: 0;
+}
+.img-main{
+    width: 100% !important;
+    height: 100%;
+    background-image: url("./images/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding-bottom: 1rem;
+}
+.hero-text{
+    width: 60%;
+    padding-left: 20px;
+    padding-top: 30%;
+}
+.date-hero{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.9997px;
+    line-height: 20px;
+    color: snow;
+}
+
+.blog-title-hero{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 108.2%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.preview-hero{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: #FFFFFF;
+}
+.blog-articles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.8rem;
+}
+
+.blog-row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2.4rem;
+    gap: 3rem;
+}
+
+.card{
+    width: 19.313rem;
+    height: 24.563rem;
+    font-family: 'Source Sans Pro';
+}
+
+.card-img{
+    width: 19.313rem;
+    height: 14.5rem;
+    border-radius: 0.3rem;
+    background-size: cover;
+}
+
+.date-card{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    color: #000000;
+}
+
+.card-text, .demo-link{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.demo-link{
+    font-size: 0.8rem;
+    color: hotpink;
+}
+
+footer{
+    padding-left: 1.2rem;
+    background-color: navy;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    text-align: center;
+    color: snow;
+}
+
+.footer-link{
+    color: snow;
+}
+
+/*media query*/
+@media (max-width:1000px){
+    .blog-row {
+        flex-direction: column;
+    }
+}
