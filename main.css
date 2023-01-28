@@ -99,12 +99,15 @@ header{
     flex-direction: row;
     margin-bottom: 2.4rem;
     gap: 3rem;
+    flex-wrap: wrap;
+
 }
 
 .card{
     width: 19.313rem;
     height: 24.563rem;
     font-family: 'Source Sans Pro';
+    flex: 1 15em;
 }
 
 .card-img{
