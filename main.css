@@ -15,6 +15,7 @@ header{
     width: 12.5rem;
     list-style-type: none;
     margin-top: 1.28rem;
+    display: block;
 }
 .menu{
     display: flex;
@@ -149,4 +150,153 @@ footer{
 .footer-link{
     color: snow;
 }
+.mobile-icon{
+    display: none;
+    width: 5.21rem;
+    height: 5.21rem;
+}
+/*blog details*/
+.article-main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 1.8rem;
+    margin: 0 1rem;
+}
+.article-dtl-image{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)), url('./images/content-blog.jpg');
+    border-radius: 3px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin-top: 0.8rem;
+}
+.main-post-date{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.9997px;
+    line-height: 1.2rem;
+}
+.fontfam{
+    font-family: 'Source Sans Pro';
+    font-size: 1.2rem;
+}
+.lefta{
+    text-align: left;
+}
+.para-class{
+    margin: 0 5rem;
+    word-spacing: 0.5rem;
+}
+.article-h3{
+    font-family: 'Source Sans Pro';
+    font-size: x-large;
+    margin-bottom: 0;
+}
+section h2{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.1rem;
+    line-height: 108.2%;
+    letter-spacing: -0.03em;
+}
+.body-text{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+.recent-post{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 108.2%;
+    text-align: center;
+    color: #141414;
+}
 
+.article-card{
+    width: 19.313rem;
+    height: 24.563rem;
+}
+.article-cardbody{
+    width: 309px;
+    height: 18px;
+}
+.date06{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    color: #000000;
+}
+.article-card-head{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 108.2%;
+}
+
+.article-card-body{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 125%;
+    color: #505050;
+}
+
+.dtl-main{
+    display: flex;
+    flex-direction: column;
+    gap:0.8rem;
+}
+
+.article-author{
+    font-size: 0.8rem;
+    color: purple;
+}
+
+.more-article{
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+}
+.avatar-img{
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+}
+
+.aboutme-header{
+    margin: 0 5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.intro{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.intro-section{
+    font-family: 'Source Sans Pro';
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+.short-intro{
+    font-family: 'Source Sans Pro';
+    font-size: 1rem;
+}
+.strip{
+    margin-top: 2rem;
+    text-align: center;
+}
+@media (min-width:400px){
+    .para-class{
+        margin: 0 0.12rem;
+    }
+}   
