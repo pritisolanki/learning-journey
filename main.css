@@ -101,6 +101,7 @@ header{
     margin-bottom: 2.4rem;
     gap: 3rem;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .center{
     text-align: center;
@@ -110,7 +111,7 @@ header{
     width: 19.313rem;
     height: 24.563rem;
     font-family: 'Source Sans Pro';
-    flex: 1 15em;
+    text-align:left;
 }
 
 .card-img{
