@@ -28,11 +28,12 @@ header{
     font-size: 1.25rem;
 }
 .logo{
-    width: 12.94rem;
+    width: 14rem;
     height: 2.141rem;
     padding-top: 0.7rem;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .logo img{
     width: 2rem;
@@ -58,7 +59,7 @@ header{
     padding-bottom: 1rem;
 }
 .hero-text{
-    width: 60%;
+    width: 50%;
     padding-left: 20px;
     padding-top: 30%;
 }
@@ -73,18 +74,17 @@ header{
 .blog-title-hero{
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: xx-large;
     line-height: 108.2%;
     letter-spacing: -0.03em;
     color: #FFFFFF;
     margin: 0;
 }
-
 .preview-hero{
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: large;
     line-height: 1.4rem;
     color: #FFFFFF;
 }
@@ -94,7 +94,6 @@ header{
     align-items: center;
     margin: 0.8rem;
 }
-
 .blog-row{
     display: flex;
     flex-direction: row;
@@ -175,7 +174,10 @@ footer{
     font-style: normal;
     font-weight: 400;
     font-size: 15.9997px;
-    line-height: 1.2rem;
+    margin-bottom: 0;
+}
+.article-main h2{
+    margin-bottom: 0;;
 }
 .fontfam{
     font-family: 'Source Sans Pro';
@@ -258,6 +260,7 @@ section h2{
 .article-author{
     font-size: 0.8rem;
     color: purple;
+    padding-bottom: 0.5rem;
 }
 
 .more-article{
@@ -274,7 +277,6 @@ section h2{
 .aboutme-header{
     margin: 0 5rem;
     display: flex;
-    flex-direction: row;
     gap: 1rem;
 }
 
@@ -290,7 +292,7 @@ section h2{
 }
 .short-intro{
     font-family: 'Source Sans Pro';
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .strip{
     margin-top: 2rem;
@@ -300,4 +302,14 @@ section h2{
     .para-class{
         margin: 0 0.12rem;
     }
+    .aboutme-header{
+        flex-direction: row;
+    }
 }   
+
+@media(max-width:600px){
+
+    .aboutme-header{
+        flex-direction: column;
+    }
+}
