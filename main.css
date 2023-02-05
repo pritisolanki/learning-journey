@@ -59,7 +59,7 @@ header{
     padding-bottom: 1rem;
 }
 .hero-text{
-    width: 50%;
+    width: 70%;
     padding-left: 20px;
     padding-top: 30%;
 }
@@ -298,6 +298,11 @@ section h2{
     margin-top: 2rem;
     text-align: center;
 }
+.menu-mobile{
+    width: 50px;
+    height: 50px;
+}
+
 @media (min-width:400px){
     .para-class{
         margin: 0 0.12rem;
@@ -305,10 +310,16 @@ section h2{
     .aboutme-header{
         flex-direction: row;
     }
-}   
+}  
 
 @media(max-width:600px){
-
+    .header-menu{
+        display: none;
+    }
+    .mobile-icon{
+        display: inline-block;
+        margin-top: 0.4rem;
+    }
     .aboutme-header{
         flex-direction: column;
     }
